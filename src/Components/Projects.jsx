@@ -1,22 +1,22 @@
 import React from 'react'
-import websiteImg from '../assets/ecommerce-websites.jpg'
-import websiteImg2 from '../assets/food-ecommerce.jpg'
-import websiteImg3 from '../assets/website-blog.jpg'
+import websiteImg from '../assets/Kaarvens.png'
+import websiteImg2 from '../assets/display port.png'
+import websiteImg3 from '../assets/wireless power.png'
 const Projects = () => {
     const projects = [
         {
             img: websiteImg,
-            disc: 'A Ecomerce website  build with React, Mongo DB and .NET Core',
+            disc: 'A Task Master application  build with React, Mongo DB and .NET Core',
             link: '',
         },
         {
             img: websiteImg2,
-            disc: 'A Food Ecomerce website  build with React, Mongo DB and .NET Core ',
+            disc: 'Display Port solution application used for testing Type-C to Type-C cables.. using .NET Blazor framework ',
             link: '',
         },
         {
             img: websiteImg3,
-            disc: 'A basic blog website with React',
+            disc: 'Wireless Power Solution application used for testing wireless chargers and mobile devices like Samsung, Apple, etc., using .NET Core and React.',
             link: '',
         }
     ]
