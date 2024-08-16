@@ -10,7 +10,7 @@ const Hero = () => {
     }
 
     return (
-        <section className='flex flex-col md:flex-row justify-center px-5 py-32 bg-primary '>
+        <section className='flex flex-col md:flex-row justify-center  px-5 py-32 bg-primary '>
             <div className='md:w-1/2  text-white font-hero-1'>
                 <h1 className=' text-6xl '>Hi, </h1>
                 <h1 className=' text-6xl  mt-3'>I'm Sudharsanan  </h1>
