@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../assets/hero.png'
+// import Typed  from 'react-typed';
 import { AiOutlineTwitter, AiOutlineLinkedin, AiOutlineFacebook, AiOutlineGithub } from "react-icons/ai";
 
 const Hero = () => {
@@ -12,6 +13,12 @@ const config={
             <div className='md:w-1/2'>
                 <h1 className=' text-white text-4xl font-hero-1'>Hi, <br /> I'm Sudharsanan
                     <p className='text-2xl font-hero-2' >{config.subtitle}</p>
+                {/* <Typed
+                    strings={['Front-End Developer','Back-End Developer','Full stack Developer','.NET Developer']}
+                    typeSpeed={80}
+                    backSpeed={50}
+                    loop
+                    />             */}
                 </h1>
                 <div className='flex mt-5'>
                     <a href="" className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineTwitter />}</a>

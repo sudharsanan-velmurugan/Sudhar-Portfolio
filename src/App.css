@@ -13,7 +13,7 @@ header ul li{
   background:#2b2d77
 }
 .mobile-view{
-  @apply fixed top-12 left-0 bg-gray-800 w-full h-1/4
+  @apply fixed top-10 left-0 bg-gray-800 w-full h-[35%]
 }
 .mobile-view li{
   @apply w-full text-center border-b-2

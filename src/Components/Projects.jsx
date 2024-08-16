@@ -7,17 +7,17 @@ const Projects = () => {
         {
             img: websiteImg,
             disc: 'A Task Master application  build with React, Mongo DB and .NET Core',
-            link: '',
+            link: 'https://github.com/sudharsanan-velmurugan/Kaarvens-structural-consultancy/tree/main',
         },
         {
             img: websiteImg2,
             disc: 'Display Port solution application used for testing Type-C to Type-C cables.. using .NET Blazor framework ',
-            link: '',
+            link: 'https://github.com/graniteriverlabs/c2v-blazer-app/',
         },
         {
             img: websiteImg3,
             disc: 'Wireless Power Solution application used for testing wireless chargers and mobile devices like Samsung, Apple, etc., using .NET Core and React.',
-            link: '',
+            link: 'https://github.com/graniteriverlabs/C3BrowserApp_BE/',
         }
     ]
 
