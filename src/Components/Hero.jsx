@@ -1,30 +1,37 @@
 import React from 'react'
 import heroImg from '../assets/hero.png'
-// import Typed  from 'react-typed';
+import { Typewriter } from 'react-simple-typewriter';
 import { AiOutlineTwitter, AiOutlineLinkedin, AiOutlineFacebook, AiOutlineGithub } from "react-icons/ai";
 
 const Hero = () => {
-const config={
-    subtitle:"I' m a FullStack Developer",
-}
+    const config = {
+        subtitle: "I' m a",
+        words: ['Front-End Developer', 'Back-End Developer', 'Full stack Developer', '.NET Developer']
+    }
 
     return (
         <section className='flex flex-col md:flex-row justify-center px-5 py-32 bg-primary '>
-            <div className='md:w-1/2'>
-                <h1 className=' text-white text-4xl font-hero-1'>Hi, <br /> I'm Sudharsanan
-                    <p className='text-2xl font-hero-2' >{config.subtitle}</p>
-                {/* <Typed
-                    strings={['Front-End Developer','Back-End Developer','Full stack Developer','.NET Developer']}
-                    typeSpeed={80}
-                    backSpeed={50}
-                    loop
-                    />             */}
-                </h1>
+            <div className='md:w-1/2  text-white font-hero-1'>
+                <h1 className=' text-6xl '>Hi, </h1>
+                <h1 className=' text-6xl  mt-3'>I'm Sudharsanan  </h1>
+                <p className='text-4xl mt-6 font-hero-2' >
+                    <span>
+                        {config.subtitle}
+                    </span>
+                    <span className='ml-4'>
+                        <Typewriter
+                            words={config.words}
+                            typeSpeed={80}
+                            deleteSpeed={50}
+                            delaySpeed={2000}
+                            loop={true}
+                            cursor
+                        />
+                    </span>
+                </p>
                 <div className='flex mt-5'>
-                    <a href="" className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineTwitter />}</a>
-                    <a href="" className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineFacebook />}</a>
-                    <a href="" className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineLinkedin />}</a>
-                    <a href="" className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineGithub />}</a>
+                    <a href="https://www.linkedin.com/in/sudharsanan-velmurugan/" target='_blank' className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineLinkedin />}</a>
+                    <a href="https://github.com/sudharsanan-velmurugan" target='_blank' className='text-white text-3xl pr-5 hover:text-black'>{<AiOutlineGithub />}</a>
                 </div>
             </div>
 

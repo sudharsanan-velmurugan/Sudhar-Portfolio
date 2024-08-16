@@ -3,7 +3,7 @@ import resumeImg from '../assets/resume.jpg'
 
 const Resume = () => {
     const config={
-        link:'',
+        link:'https://sudharsanan-resume.tiiny.site/',
     }
   return (
     <section id='resume' className='flex flex-col md:flex-row bg-secondary px-5'>
